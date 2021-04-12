@@ -4,3 +4,10 @@
 @function min($numbers...) {
   @return m#{i}n(#{$numbers});
 }
+//  FONTS-SIZE  //
+$fs-xs: 14px;
+$fs-s: 16px;
+$fs-m: 18px;
+$fs-l: 20px;
+$fs-xl: 24px;
+//  FONTS-SIZE END  //

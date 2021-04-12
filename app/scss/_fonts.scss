@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'AvenirS';
+  src: url('../fonts/AvenirS/AvenirNextCyr-Regular.eot');
+  src: url('../fonts/AvenirS/AvenirNextCyr-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/AvenirS/AvenirNextCyr-Regular.woff') format('woff'),
+    url('../fonts/AvenirS/AvenirNextCyr-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirM';
+  src: url('../fonts/AvenirM/AvenirNextCyr-Medium.eot');
+  src: url('../fonts/AvenirM/AvenirNextCyr-Medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/AvenirM/AvenirNextCyr-Medium.woff') format('woff'),
+    url('../fonts/AvenirM/AvenirNextCyr-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirL';
+  src: url('../fonts/AvenirL/AvenirNextCyr-Demi.eot');
+  src: url('../fonts/AvenirL/AvenirNextCyr-Demi.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/AvenirL/AvenirNextCyr-Demi.woff') format('woff'),
+    url('../fonts/AvenirL/AvenirNextCyr-Demi.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirXl';
+  src: url('../fonts/AvenirXl/AvenirNextCyr-Bold.eot');
+  src: url('../fonts/AvenirXl/AvenirNextCyr-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/AvenirXl/AvenirNextCyr-Bold.woff') format('woff'),
+    url('../fonts/AvenirXl/AvenirNextCyr-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirHevy';
+  src: url('../fonts/AvenirHevy/AvenirNextCyr-Heavy.eot');
+  src: url('../fonts/AvenirHevy/AvenirNextCyr-Heavy.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/AvenirHevy/AvenirNextCyr-Heavy.woff') format('woff'),
+    url('../fonts/AvenirHevy/AvenirNextCyr-Heavy.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin AvenirS {
+  font-family: 'AvenirS', sans-serif;
+}
+@mixin AvenirM {
+  font-family: 'AvenirM', sans-serif;
+}
+@mixin AvenirL {
+  font-family: 'AvenirL', sans-serif;
+}
+@mixin AvenirXl {
+  font-family: 'AvenirXl', sans-serif;
+}
+@mixin AvenirHevy {
+  font-family: 'AvenirHevy', sans-serif;
+}

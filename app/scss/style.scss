@@ -4,4 +4,49 @@
 @import 'libs';
 @import 'global';
 
+.hero {
+  position: relative;
+  overflow: hidden;
+  &__slider-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &__slider-item-content {
+    padding-top: 138px;
+    padding-bottom: 200px;
+    color: #ffffff;
+  }
+  &__decore {
+    width: 51%;
+    position: absolute;
+    bottom: -9%;
+    height: 115px;
+    background-color: #ffffff;
+    &-left {
+      transform: skewY(6.5deg);
+      left: 0;
+    }
+    &-right {
+      transform: skewY(-6.5deg);
+      right: 0;
+    }
+  }
+}
 
+.trainers {
+  padding-top: 64px;
+
+  &__description {
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 64px;
+    max-width: 810px;
+    text-align: center;
+  }
+}
+
+// background-image: url(../images/blocks/hero/hero-bg__screen.png);
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center;
