@@ -4,6 +4,7 @@ body {
 }
 body {
   font-family: 'AvenirM', sans-serif;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -44,6 +45,11 @@ body {
   text-align: center;
   margin: 0 auto;
   font-size: 36px;
+}
+.description {
+  margin: auto;
+  max-width: 810px;
+  text-align: center;
 }
 
 .header {
@@ -109,6 +115,13 @@ body {
     position: relative !important;
   }
 }
+.footer {
+  &__content{}
+  &__footer-logo{}
+  &__menu{}
+  &__menu-item{}
+  &__menu-links
+}
 .slick-dots {
   display: flex;
   justify-content: center;
@@ -139,4 +152,15 @@ body {
       height: 16px;
     }
   }
+}
+.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 22px 55px;
+  border: 1px solid #f5a623;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: $fs-s;
+  font-weight: 500;
+  font-family: 'AvenirL', sans-serif;
 }
