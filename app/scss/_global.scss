@@ -116,11 +116,25 @@ body {
   }
 }
 .footer {
-  &__content{}
-  &__footer-logo{}
-  &__menu{}
-  &__menu-item{}
-  &__menu-links
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 49px;
+    padding-bottom: 49px;
+  }
+  &__menu {
+    margin-left: 82px;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+  }
+  &__menu-item {
+    margin-right: 32px;
+  }
+  &__menu-item__link {
+    color: #000000;
+  }
 }
 .slick-dots {
   display: flex;
